@@ -7,7 +7,8 @@ def hello(array)
   binding.pry
     collection << yield(array[i])
     i += 1
-  end\
+  end
+  collection
 end
 
 
